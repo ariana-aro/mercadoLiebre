@@ -21,7 +21,7 @@
     
   }
   .top-header {
-    width: 100%;
+    width: 102%;
     text-align: center;
   }
   .subtitulo-header {
@@ -180,9 +180,10 @@
   
   .img-footer {
     font-size: 30px;
+    
   }
   .logo {
-    width: 200px;
+    width: 250px;
   }
   
   @media (min-width: 361px) {

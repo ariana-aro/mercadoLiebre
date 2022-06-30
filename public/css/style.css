@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     padding: 2%;
-    position: fixed;
+    position: relative;
     top: 0;
     z-index: 100;
     
@@ -68,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #03264c;
+    background-color: #2473c7;
     border-radius: 5px;
     color: #fff;
     font-size: 20px;
@@ -161,12 +161,16 @@
     padding: 15px;
   }
   footer div {
-    display: flex;
+    display:block;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    margin: 20px;
-    text-align: center;
+    width: 110%;
+    margin-block: 6px;
+    text-align-last: center;
+    margin:  auto;
+    max-width: 1200px;
+    padding: 10px ;
+    
   }
   
   .titulo-h4 {
@@ -179,7 +183,6 @@
   }
   .logo {
     width: 200px;
-    animation: aumentar 1s linear infinite alternate;
   }
   
   @media (min-width: 361px) {
@@ -193,7 +196,7 @@
     }
   
     .img-banner {
-      display: none;
+      display: block;
     }
   
     .descripcion {
@@ -249,8 +252,8 @@
       height: 210px;
     }
     .img-banner {
-      display: flex;
-      margin-top: 94px;
+      display: block;
+      margin-top: 4px;
     }
     .navbar {
       display: flex;

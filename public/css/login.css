@@ -39,7 +39,7 @@ main {
   .input1-group input,
   .input2-group input {
     width: 100%;
-    padding: 10px;
+    padding: 100px;
     border: none;
     border-radius: 10px;
   }

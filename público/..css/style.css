@@ -317,6 +317,7 @@
     .container-footer {
       display: flex;
       flex-direction: row;
+      padding: 20px;
     }
   
     .img-footer:hover {

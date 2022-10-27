@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
+const path = require("path");
 
+app.set('puerto', process.env.PORT || 3001);
 
 app.use("/public", express.static(__dirname + '/public'));
+
+app.set('puerto', process.env.PORT || 3001);
 
 app.listen(3001, ()=>{
     console.log('Servidor funcionando');

@@ -1,9 +1,10 @@
 .form {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 380px auto 50px auto;
+    width: 10px;
+    margin: 38px auto 50px auto;
   }
+  
   .datosUsuario {
     display: flex;
     flex-direction: column;
@@ -40,6 +41,7 @@
   
   .img-footer {
     font-size: 30px;
+    display: flex;
   }
   
   .imagenDelPerfil {
@@ -81,17 +83,19 @@
     background-color: #0022aa;
   }
   
-  @media (min-width: 361px) {
+  @media (min-width: 36px) {
     .form {
-      width: 70%;
-      margin: 400px auto 50px auto;
+      width: 40%;
+      margin: 40px auto 50px auto;
+      display: flex;
     }
   }
   
-  @media (min-width: 768px) {
+  @media (min-width: 76px) {
     .form {
       width: 40%;
-      margin: 380px auto 50px auto;
+      margin: 38px auto 50px auto;
+      display: flex;
     }
   }
   
